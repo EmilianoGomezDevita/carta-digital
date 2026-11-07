@@ -1,6 +1,5 @@
 {
-  "slug": "la-esquina",
-  "plan": "administrada",
+  "slug": "demo",
   "negocio": {
     "nombre": "La Esquina",
     "eslogan": "Hamburguesas hechas sin apuro.",
@@ -11,10 +10,28 @@
     "direccion": "Av. San Martín 840, Buenos Aires",
     "mapaUrl": "https://maps.google.com/?q=Av.+San+Martin+840+Buenos+Aires",
     "horarios": [
-      { "dias": "Martes a jueves", "horas": "19:00 a 00:00" },
-      { "dias": "Viernes a domingo", "horas": "19:00 a 01:00" }
+      {
+        "dias": "Martes a jueves",
+        "horas": "19:00 a 00:00"
+      },
+      {
+        "dias": "Viernes a domingo",
+        "horas": "19:00 a 01:00"
+      }
     ],
-    "actualizado": "2026-11-06"
+    "actualizado": "2026-11-06",
+    "rubro": "Hamburguesas de barrio · Buenos Aires",
+    "imagenPortada": "",
+    "imagenPortadaAlt": "",
+    "textosCinta": [
+      "Buen pan",
+      "Carne de verdad",
+      "Mucho cheddar",
+      "Hecho acá"
+    ],
+    "sello": "SMASH YOUR HUNGER",
+    "fraseVisita": "Nos vemos en la esquina.",
+    "frasePie": "Una buena burger siempre encuentra su lugar."
   },
   "categorias": [
     {
@@ -26,28 +43,56 @@
           "id": "la-clasica",
           "nombre": "La Clásica",
           "descripcion": "Doble carne smash, cheddar, cebolla a la plancha, pepinillos y salsa de la casa.",
-          "variantes": [{ "nombre": "Simple", "precio": 8900 }, { "nombre": "Doble", "precio": 11900 }],
-          "etiquetas": ["Favorita"],
+          "variantes": [
+            {
+              "nombre": "Simple",
+              "precio": 8900
+            },
+            {
+              "nombre": "Doble",
+              "precio": 11900
+            }
+          ],
+          "etiquetas": [
+            "Favorita"
+          ],
           "disponible": true,
-          "icono": "🍔"
+          "icono": "🍔",
+          "foto": ""
         },
         {
           "id": "la-picante",
           "nombre": "La Picante",
           "descripcion": "Doble smash, queso pategrás, jalapeños, cebolla morada y mayo de chipotle.",
-          "variantes": [{ "nombre": "Doble", "precio": 12800 }],
-          "etiquetas": ["Picante"],
+          "variantes": [
+            {
+              "nombre": "Doble",
+              "precio": 12800
+            }
+          ],
+          "etiquetas": [
+            "Picante"
+          ],
           "disponible": true,
-          "icono": "🌶️"
+          "icono": "🌶️",
+          "foto": ""
         },
         {
           "id": "la-verde",
           "nombre": "La Verde",
           "descripcion": "Medallón de lentejas y quinoa, palta, rúcula y alioli de limón.",
-          "variantes": [{ "nombre": "Única", "precio": 10500 }],
-          "etiquetas": ["Vegana"],
+          "variantes": [
+            {
+              "nombre": "Única",
+              "precio": 10500
+            }
+          ],
+          "etiquetas": [
+            "Vegana"
+          ],
           "disponible": true,
-          "icono": "🥑"
+          "icono": "🥑",
+          "foto": ""
         }
       ]
     },
@@ -60,19 +105,35 @@
           "id": "papas-clasicas",
           "nombre": "Papas de la casa",
           "descripcion": "Crocantes por fuera, tiernas por dentro. Con nuestra sal especiada.",
-          "variantes": [{ "nombre": "Porción", "precio": 5900 }, { "nombre": "Para compartir", "precio": 7900 }],
+          "variantes": [
+            {
+              "nombre": "Porción",
+              "precio": 5900
+            },
+            {
+              "nombre": "Para compartir",
+              "precio": 7900
+            }
+          ],
           "etiquetas": [],
           "disponible": true,
-          "icono": "🍟"
+          "icono": "🍟",
+          "foto": ""
         },
         {
           "id": "papas-cheddar",
           "nombre": "Papas con cheddar",
           "descripcion": "Papas doradas, cheddar fundido, verdeo y panceta crocante.",
-          "variantes": [{ "nombre": "Porción", "precio": 7400 }],
+          "variantes": [
+            {
+              "nombre": "Porción",
+              "precio": 7400
+            }
+          ],
           "etiquetas": [],
           "disponible": false,
-          "icono": "🧀"
+          "icono": "🧀",
+          "foto": ""
         }
       ]
     },
@@ -85,19 +146,35 @@
           "id": "limonada",
           "nombre": "Limonada casera",
           "descripcion": "Limón exprimido, menta fresca y un toque de jengibre.",
-          "variantes": [{ "nombre": "Vaso", "precio": 3200 }, { "nombre": "Jarra", "precio": 6200 }],
+          "variantes": [
+            {
+              "nombre": "Vaso",
+              "precio": 3200
+            },
+            {
+              "nombre": "Jarra",
+              "precio": 6200
+            }
+          ],
           "etiquetas": [],
           "disponible": true,
-          "icono": "🍋"
+          "icono": "🍋",
+          "foto": ""
         },
         {
           "id": "brownie",
           "nombre": "Brownie tibio",
           "descripcion": "Chocolate amargo, centro húmedo y crema batida.",
-          "variantes": [{ "nombre": "Porción", "precio": 4900 }],
+          "variantes": [
+            {
+              "nombre": "Porción",
+              "precio": 4900
+            }
+          ],
           "etiquetas": [],
           "disponible": true,
-          "icono": "🍫"
+          "icono": "🍫",
+          "foto": ""
         }
       ]
     }
