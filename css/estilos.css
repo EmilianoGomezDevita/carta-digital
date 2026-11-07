@@ -324,7 +324,7 @@ input {
 }
 
 .ticker div {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 700;
     letter-spacing: .18em;
     word-spacing: 1em;
@@ -532,7 +532,7 @@ input {
 }
 
 .dish-content>p {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.55;
     color: #78746c;
     margin: 0 0 8px;
@@ -572,7 +572,7 @@ input {
 }
 
 .price-line {
-    font-size: 9px;
+    font-size: 17px;
     color: #7d786e;
     display: flex;
     gap: 6px
@@ -927,3 +927,23 @@ body { background: #111111; color: var(--ink); }
 .visit { background: #080808; }
 footer { background: #080808; }
 .error-state { background: #111111; }
+
+
+/* Ajustes de contenido configurable, fotos y jerarquía de precios. */
+.hero.no-cover { grid-template-columns: 1fr; }
+.hero.no-cover .hero-copy { max-width: 760px; }
+.hero-art { height: 420px; min-width: 0; border-radius: 0; overflow: hidden; position: relative; background: #191613; }
+.hero-art img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.hero-art .hero-stamp { position: absolute; z-index: 1; }
+.dish-art { min-width: 0; }
+.dish-art img { width: 100%; height: 100%; min-height: 135px; object-fit: cover; display: block; }
+.prices { gap: 8px 18px; padding-top: 9px; }
+.price-line { font-size: 12px; gap: 8px; }
+.price-line strong { font-size: 15px; font-weight: 700; letter-spacing: -.02em; }
+@media(max-width:800px) {
+  .hero.no-cover { grid-template-columns: 1fr; }
+  .hero-art { height: 330px; }
+  .dish-art img { min-height: 125px; }
+  .price-line { font-size: 12px; }
+  .price-line strong { font-size: 15px; }
+}
